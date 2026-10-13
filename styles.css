@@ -143,13 +143,9 @@ a {
   height: 120px;
   border-radius: 50%;
   margin: 0.8rem auto 1.15rem;
-  display: grid;
-  place-items: center;
-  background: var(--avatar-bg);
-  color: rgba(255, 255, 255, 0.94);
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  font-size: 2.1rem;
+  display: block;
+  object-fit: cover;
+  object-position: center top;
   box-shadow: 0 24px 50px rgba(88, 109, 168, 0.25);
 }
 
